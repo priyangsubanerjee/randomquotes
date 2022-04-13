@@ -3,7 +3,7 @@
 
 This is a simple javascript project which helps to settle the idea of loading dynamic contents from an api and populating them on the front end with vanilla javascript.
 
-(View it live)[https://priyangsubanerjee.github.io/randomquotes/]
+[View it live](https://priyangsubanerjee.github.io/randomquotes/)
 
 <br/>
 
