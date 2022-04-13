@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.js" integrity="sha512-MNW6IbpNuZZ2VH9ngFhzh6cUt8L/0rSVa60F8L22K1H72ro4Ki3M/816eSDLnhICu7vwH/+/yb8oB3BtBLhMsA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="./main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="py-3 px-6 border-b flex items-center">
+        <div>
+            <span class="text-xl">
+                <span class="font-bold">Random</span> Quotes
+            </span>
+            <small class="ml-2 text-gray-500">from Api</small>
+        </div>
+        <div class="ml-auto">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" class="w-6 h-6" alt="">
+        </div>
+    </div>
+    <div id="quotesContainer" class="grid grid-cols-4 p-6 gap-4">
+        <div class="bg-gray-50 h-full p-4 rounded">
+            <p class="text-gray-500 leading-6 text-[12px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor porro autem cupiditate blanditiis? Eveniet est modi quos sequi? Et explicabo quam voluptatum a in quasi beatae ut? Vitae, expedita.</p>
+            <p class='text-right text-[12px] mt-3 text-gray-600 font-medium'>- J. Doe</p>
+        </div>
+    </div>
+    <div class="mt-16 p-6">
+        <div class="p-4 w-fit bg-sky-50 rounded-md w-[400px]">
+            <img src="https://cdn-icons-png.flaticon.com/512/263/263075.png" class="h-5 w-5 inline-block" alt="">
+            <span class="font-medium text-base">
+                Wanna build something similar to this?
+            </span>
+            <p class="text-xs leading-6 text-gray-500 mt-2">
+                This project aims to settle the idea of loading & populating the DOM with dynamic data, which is then loaded from an API with fetch request. <br>
+            </p>
+            <div class="text-right text-xs text-gray-500 flex items-center justify-end">
+                <div class="mr-4">
+                    <a class="border-b border-dashed border-gray-300 pb-1" href="">Read more</a>
+                    <img src="https://cdn-icons-png.flaticon.com/512/130/130884.png" class="h-3 w-3 opacity-50 inline-block" alt="">
+                </div>
+                <div>
+                    <a class="border-b border-dashed border-gray-300 pb-1" href="">Source code</a>
+                    <img src="https://cdn-icons-png.flaticon.com/512/130/130884.png" class="h-3 w-3 opacity-50 inline-block" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
